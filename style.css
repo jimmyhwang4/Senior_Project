@@ -1,0 +1,197 @@
+html {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.videoContainer {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+  }
+  
+  .fullscreenVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .fullscreenVideo video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.menuBar {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menuLink {
+    color: white;
+    font-family: "Raleway";
+    font-size: 20px;
+}
+
+.menuLink a {
+    text-decoration: none;
+}
+
+.menuLink:hover {
+    text-decoration: underline;
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+
+.title {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "Raleway";
+    font-size: 100px;
+    color: white;
+}
+
+.titleBorder {
+  border: 6px solid white;
+}
+
+.songContainer {
+  position: absolute;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.songBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway";
+  color: white;
+  font-size: 24px;
+}
+
+.songBorder {
+  border: 2px solid white;
+  padding: 4px;
+}
+
+.contactContainer {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+  position: absolute;
+  width: 50%;
+  text-align: justify;
+  color: white;
+  font-family: "Raleway";
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 4px;
+}
+
+.socialContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.socialBar {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  bottom: 32px;
+  position: absolute;
+}
+/* SOCIAL MEDIA BAR PLACEMENT */
+
+.facebookLogo {
+  filter: invert(100%);
+  background-image: url('facebook.png');
+  background-size: cover;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+/* FACEBOOK LOGO PROPERTIES */
+
+.instagramLogo {
+  filter: invert(90%);
+  background-image: url('instagram.png');
+  background-size: cover;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+/* INSTAGRAM LOGO PROPERTIES */
+
+.youtubeLogo {
+  filter: invert(90%);
+  background-image: url('youtube.png');
+  background-size: cover;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+/* YOUTUBE LOGO PROPERTIES */
+
+.soundcloudLogo {
+  filter: invert(100%);
+  background-image: url('soundcloud.png');
+  background-size: cover;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+/* SOUNDCLOUD LOGO PROPERTIES */
+
+.facebookLogo:hover {
+  filter: invert(0%);
+}
+/* MOUSE HOVERING EFFECT OVER FACEBOOK LOGO */
+
+.instagramLogo:hover {
+  filter: invert(10%);
+}
+/* MOUSE HOVERING EFFECT OVER INSTAGRAM LOGO */
+
+.youtubeLogo:hover {
+  filter: invert(10%);
+}
+/* MOUSE HOVERING EFFECT OVER YOUTUBE LOGO */
+
+.soundcloudLogo:hover {
+  filter: invert(0%);
+}
+/* MOUSE HOVERING EFFECT OVER SOUNDCLOUD LOGO */
