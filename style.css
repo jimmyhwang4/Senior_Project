@@ -176,6 +176,16 @@ a, a:hover, a:active, a:visited { color: white; }
 }
 /* SOUNDCLOUD LOGO PROPERTIES */
 
+.spotifyLogo {
+  filter: invert(100%);
+  background-image: url('spotify.png');
+  background-size: cover;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+/* SPOTIFY LOGO PROPERTIES */
+
 .facebookLogo:hover {
   filter: invert(0%);
 }
@@ -195,3 +205,8 @@ a, a:hover, a:active, a:visited { color: white; }
   filter: invert(0%);
 }
 /* MOUSE HOVERING EFFECT OVER SOUNDCLOUD LOGO */
+
+.spotifyLogo:hover {
+  filter: invert(0%);
+}
+/* MOUSE HOVERING EFFECT OVER SPOTIFY LOGO */
